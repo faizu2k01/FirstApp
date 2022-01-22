@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    tools:context=".Grade_Activity">
+
+
+    <EditText
+        android:id="@+id/ValueTwo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:ems="10"
+        android:hint="Grade"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/grayColor"
+        android:textColorHint="@color/grayColor"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334" />
+
+    <EditText
+        android:id="@+id/Value"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:ems="10"
+        android:hint="Enter Number"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/grayColor"
+        android:textColorHint="@color/grayColor"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221" />
+</androidx.constraintlayout.widget.ConstraintLayout>
